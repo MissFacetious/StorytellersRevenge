@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storyteller’s Revenge.Plugins", "Storyteller’s Revenge.Plugins.csproj", "{9BADF904-3F4D-ACA0-50FA-A512501C1C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storyteller’s Revenge", "Storyteller’s Revenge.csproj", "{F106F0F9-11A8-FDF3-4039-25AD5CF030A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storyteller’s Revenge.Editor.Plugins", "Storyteller’s Revenge.Editor.Plugins.csproj", "{0F4E0274-1BD5-FF4C-DE8A-654819E33431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storyteller’s Revenge.Editor", "Storyteller’s Revenge.Editor.csproj", "{9F01F78E-4F18-CF5D-1BA5-9B05FE10E811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BADF904-3F4D-ACA0-50FA-A512501C1C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BADF904-3F4D-ACA0-50FA-A512501C1C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BADF904-3F4D-ACA0-50FA-A512501C1C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BADF904-3F4D-ACA0-50FA-A512501C1C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F106F0F9-11A8-FDF3-4039-25AD5CF030A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F106F0F9-11A8-FDF3-4039-25AD5CF030A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F106F0F9-11A8-FDF3-4039-25AD5CF030A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F106F0F9-11A8-FDF3-4039-25AD5CF030A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4E0274-1BD5-FF4C-DE8A-654819E33431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4E0274-1BD5-FF4C-DE8A-654819E33431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4E0274-1BD5-FF4C-DE8A-654819E33431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4E0274-1BD5-FF4C-DE8A-654819E33431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F01F78E-4F18-CF5D-1BA5-9B05FE10E811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F01F78E-4F18-CF5D-1BA5-9B05FE10E811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F01F78E-4F18-CF5D-1BA5-9B05FE10E811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F01F78E-4F18-CF5D-1BA5-9B05FE10E811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
