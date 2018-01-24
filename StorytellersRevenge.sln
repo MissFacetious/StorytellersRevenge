@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellersRevenge.Plugins", "StorytellersRevenge.Plugins.csproj", "{465F6F3B-EA38-4C6F-1668-666AB5304DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellersRevenge", "StorytellersRevenge.csproj", "{65F53F38-FD9B-926A-1A31-607B8B52EFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellersRevenge.Editor.Plugins", "StorytellersRevenge.Editor.Plugins.csproj", "{1A29ADEF-1AB9-5711-E222-55E3FD629B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellersRevenge.Editor", "StorytellersRevenge.Editor.csproj", "{60C994E5-57BB-DCA7-CD89-3B1C17A397D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{465F6F3B-EA38-4C6F-1668-666AB5304DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465F6F3B-EA38-4C6F-1668-666AB5304DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465F6F3B-EA38-4C6F-1668-666AB5304DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465F6F3B-EA38-4C6F-1668-666AB5304DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F53F38-FD9B-926A-1A31-607B8B52EFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F53F38-FD9B-926A-1A31-607B8B52EFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F53F38-FD9B-926A-1A31-607B8B52EFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F53F38-FD9B-926A-1A31-607B8B52EFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A29ADEF-1AB9-5711-E222-55E3FD629B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A29ADEF-1AB9-5711-E222-55E3FD629B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A29ADEF-1AB9-5711-E222-55E3FD629B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A29ADEF-1AB9-5711-E222-55E3FD629B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C994E5-57BB-DCA7-CD89-3B1C17A397D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C994E5-57BB-DCA7-CD89-3B1C17A397D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C994E5-57BB-DCA7-CD89-3B1C17A397D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C994E5-57BB-DCA7-CD89-3B1C17A397D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
