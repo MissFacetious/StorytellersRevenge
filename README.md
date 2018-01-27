@@ -4,9 +4,9 @@ Made with Unity 2017.3.0f3
 
 Required Files
 
-Download the 360 Video for this Project
+Download the 360 Videos for this Project
 https://dl.dropboxusercontent.com/s/xdxh84yetap9l1v/SAM_100_0004.mp4
-
+https://dl.dropboxusercontent.com/s/ingpxvn3zql08np/SAM_100_0008_clip.mp4
 
 
 Attribution
