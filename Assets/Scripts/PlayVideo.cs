@@ -7,9 +7,15 @@ using Interactive360;
 public class PlayVideo : MonoBehaviour {
 
     public MenuManager MenuManager;
-    public VideoPlayer ProjectorVideo;
-	// Use this for initialization
-	void Start () {
+    public string MainURL = "";
+    public string ClipURL = "";
+    public AudioClip MainAudio;
+    public AudioClip ClipAudio;
+
+    // Use this for initialization
+    void Start() {
+        GetComponent<VideoPlayer>().url = MainURL;
+        GetComponent<AudioSource>().clip = MainAudio;
         MenuManager = GameObject.Find("PlayPauseMenu").GetComponent<MenuManager>();
         GetComponent<VideoPlayer>().loopPointReached += EndReached;
         MenuManager.CheckMainVideo();
@@ -26,30 +32,6 @@ public class PlayVideo : MonoBehaviour {
         MenuManager.PauseVideoClip();
     }
 
-    public void PlayProjectorClip()
-    {
-        StartCoroutine(ChooseSeperateClip());
-    }
-
-    IEnumerator ChooseSeperateClip()
-    {
-        bool wasPlaying = false;
-        // pause background video
-        if (GetComponent<VideoPlayer>().isPlaying)
-        {
-            wasPlaying = true;
-            GetComponent<VideoPlayer>().Pause();
-        }
-        // play video on projector
-        ProjectorVideo.GetComponent<VideoPlayer>().Play();
-        // give us 8 seconds of playing this video, then go back to the main one
-        ProjectorVideo.GetComponent<VideoPlayer>().Pause();
-        yield return new WaitForSeconds(8f);
-        if (wasPlaying)
-        {
-            GetComponent<VideoPlayer>().Play();
-        }
-    }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {

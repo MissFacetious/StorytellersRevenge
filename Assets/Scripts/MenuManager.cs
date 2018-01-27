@@ -104,7 +104,9 @@ namespace Interactive360
         {
             if (MainVideo != null)
             {
-                MainVideo.GetComponent<VideoPlayer>().time = 49;
+                // change the video to show the clip
+                MainVideo.GetComponent<VideoPlayer>().url = MainVideo.GetComponent<PlayVideo>().ClipURL;
+                MainVideo.GetComponent<AudioSource>().clip = MainVideo.GetComponent<PlayVideo>().ClipAudio;
                 PlayVideoClip();
             }
             Audio.GetComponent<AudioSource>().Play();
@@ -124,7 +126,6 @@ namespace Interactive360
             if (MainVideo != null)
             {
                 MainVideo.GetComponent<VideoPlayer>().Pause();
-                Debug.Log("pause video!");
                 PauseButton();
             }
         }

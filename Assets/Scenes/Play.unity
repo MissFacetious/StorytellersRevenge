@@ -6549,7 +6549,7 @@ VideoPlayer:
   - {fileID: 1765293367}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://dl.dropboxusercontent.com/s/xdxh84yetap9l1v/SAM_100_0004.mp4
+  m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
@@ -6580,7 +6580,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8caba2848c1a6b49b8bf0a2513da04f, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6685,7 +6685,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuManager: {fileID: 0}
-  ProjectorVideo: {fileID: 0}
+  MainURL: https://dl.dropboxusercontent.com/s/xdxh84yetap9l1v/SAM_100_0004.mp4
+  ClipURL: https://dl.dropboxusercontent.com/s/ingpxvn3zql08np/SAM_100_0008_clip.mp4
+  MainAudio: {fileID: 8300000, guid: a8caba2848c1a6b49b8bf0a2513da04f, type: 3}
+  ClipAudio: {fileID: 8300000, guid: 9424ad10296b7e449a755278376671bd, type: 3}
 --- !u!1 &1769784182
 GameObject:
   m_ObjectHideFlags: 0
